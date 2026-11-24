@@ -47,6 +47,7 @@ export const site = {
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
     { href: "/privacy", label: "Privacy" },
+    { href: "/terms", label: "Terms" },
   ],
 
   legalUpdated: "24 November 2026",

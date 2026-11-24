@@ -92,7 +92,7 @@ export default function TermsPage() {
 
       <H n={6} />
       <p>
-        Our games are free to download and may be supported by advertising, including banners, interstitials, and optional rewarded ads. A reward is granted
+        Our games are free to download. Some of them are supported by advertising, including banners, interstitials, and optional rewarded ads; games without ads show none, and each game's Google Play listing states whether it contains ads. A reward is granted
         only when a rewarded ad completes successfully; an unfinished or failed ad does not earn a reward. Ads are provided by third parties such as Google
         AdMob and Appodeal, and your advertising choices are explained in our <Link href="/privacy">Privacy Policy</Link>. We are not responsible for
         the content of third-party ads or the products they promote, but you can report an inappropriate ad to us.

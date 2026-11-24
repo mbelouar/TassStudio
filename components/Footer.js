@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
 
         <FooterCol title="Studio">
-          {site.nav.filter((n) => n.href !== "/privacy").map((n) => (
+          {site.nav.filter((n) => n.href !== "/privacy" && n.href !== "/terms").map((n) => (
             <FooterLink key={n.href} href={n.href}>{n.label}</FooterLink>
           ))}
         </FooterCol>
