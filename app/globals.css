@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   TASS STUDIO design tokens
+   Void (bg) · Ion lime (primary) · Pulse magenta (spark) · Bone (text)
+------------------------------------------------------------------- */
+@theme {
+  --color-void: #0a0910;
+  --color-void-2: #12101b;
+  --color-void-3: #1a1726;
+  --color-line: #ffffff14;
+  --color-bone: #f4f1ea;
+  --color-mute: #a7a3b5;
+  --color-ion: #c6ff3d;
+  --color-ion-dim: #9ed11f;
+  --color-pulse: #ff3d8b;
+  --color-sky: #3dd6ff;
+
+  --font-display: var(--font-unbounded), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, Menlo, monospace;
+
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-float: float 7s ease-in-out infinite;
+
+  @keyframes marquee {
+    to { transform: translateX(-50%); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(var(--r, 0deg)); }
+    50% { transform: translateY(-14px) rotate(var(--r, 0deg)); }
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-void text-bone font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-ion text-void;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-4 outline-ion rounded-md;
+  }
+}
+
+@layer components {
+  /* Faint pixel grid used behind hero / sections */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, #ffffff0a 1px, transparent 1px),
+      linear-gradient(to bottom, #ffffff0a 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  /* Glass panel with a hairline border */
+  .panel {
+    @apply rounded-3xl border border-line bg-void-2/70 backdrop-blur-sm;
+  }
+  /* Small uppercase label */
+  .eyebrow {
+    @apply font-mono text-xs font-semibold uppercase tracking-[0.25em] text-ion;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r from-ion via-bone to-pulse bg-clip-text text-transparent;
+  }
+
+  /* Long-form legal text */
+  .prose-legal h2 {
+    @apply mt-14 mb-4 scroll-mt-28 font-display text-xl font-semibold text-bone sm:text-2xl;
+  }
+  .prose-legal h3 {
+    @apply mt-8 mb-3 font-display text-base font-semibold text-bone;
+  }
+  .prose-legal p,
+  .prose-legal li {
+    @apply leading-relaxed text-mute;
+  }
+  .prose-legal p { @apply mb-4; }
+  .prose-legal ul { @apply mb-6 list-disc space-y-2 pl-5 marker:text-ion; }
+  .prose-legal strong { @apply font-semibold text-bone; }
+  .prose-legal a { @apply text-ion underline decoration-ion/40 underline-offset-4 hover:decoration-ion; }
+}
+
+/* Utilities (usable with hover:/focus: variants) */
+@utility glow-ion {
+  box-shadow: 0 0 0 1px #c6ff3d40, 0 10px 40px -10px #c6ff3d80;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Printing the Privacy Policy: plain black-on-white, no site chrome */
+@media print {
+  body > header, body > footer { display: none !important; }
+  html, body { background: #fff !important; color: #000 !important; }
+  .panel { border: 0 !important; background: none !important; padding: 0 !important; backdrop-filter: none !important; }
+  .prose-legal h2, .prose-legal h3, .prose-legal strong, h1 { color: #000 !important; }
+  .prose-legal p, .prose-legal li { color: #222 !important; }
+  .prose-legal a { color: #000 !important; }
+}

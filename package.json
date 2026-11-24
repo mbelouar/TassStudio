@@ -1,0 +1,26 @@
+{
+  "name": "tass-studio",
+  "version": "1.0.0",
+  "description": "Official website of TASS STUDIO (TASS LTD)",
+  "scripts": {
+    "predev": "node scripts/build-policy-downloads.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/build-policy-downloads.mjs",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "^14.14.0",
+    "marked": "^18.2.1",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5"
+  },
+  "private": true,
+  "type": "module"
+}
