@@ -4,7 +4,7 @@
 
 ## 1. Who we are and what this policy covers
 
-TASS LTD ("we", "us", or "our") is responsible for personal information processed for our mobile games and applications that link to this policy (the "Application"), this website, and related support and business enquiries. TASS LTD acts as the controller for the processing it determines. Advertising providers may also act as independent controllers for their own purposes, as explained below.
+TASS STUDIO ("we", "us", or "our") is responsible for personal information processed for our mobile games and applications that link to this policy (the "Application"), this website, and related support and business enquiries. TASS STUDIO acts as the controller for the processing it determines. Advertising providers may also act as independent controllers for their own purposes, as explained below.
 
 **Privacy contact:** [tasstudio@proton.me](mailto:tasstudio@proton.me).
 
@@ -12,7 +12,7 @@ The information collected depends on the Application, platform, features, permis
 
 ## 2. Information collected and its sources
 
-We receive information you provide directly, information generated when you use our services, and information from platform and advertising providers involved in delivering those services. Advertising SDKs can collect information directly from your device, even where TASS LTD does not itself store a copy.
+We receive information you provide directly, information generated when you use our services, and information from platform and advertising providers involved in delivering those services. Advertising SDKs can collect information directly from your device, even where TASS STUDIO does not itself store a copy.
 
 - **Contact and support information:** your name, email address, correspondence, and any information you choose to include in an enquiry, support request, or privacy request. Please avoid sending passwords, payment card details, or unnecessary sensitive information.
 - **Device and network identifiers:** IP address, mobile advertising identifiers, where permitted; other app or device identifiers available to an enabled SDK; device model, operating system, language, time zone, app version, and connection information.
@@ -27,7 +27,7 @@ An advertising identifier or IP address can be personal information even if it d
 
 ### Super Fortune Garuda Slots
 
-Super Fortune Garuda Slots is an Android game from TASS LTD. Spins and rewards use virtual coins. These coins have no cash value and cannot be withdrawn or exchanged for money.
+Super Fortune Garuda Slots is an Android game from TASS STUDIO. Spins and rewards use virtual coins. These coins have no cash value and cannot be withdrawn or exchanged for money.
 
 **What the game saves.** Your device stores your virtual coin balance, game progress, daily rewards, rewarded-ad progress, and sound and music settings. This lets you pick up where you left off. Clearing the app’s storage in Android settings removes the game’s local save, including the coin balance.
 
@@ -69,7 +69,7 @@ Appodeal's consent integration and Google UMP provide applicable regional privac
 
 - [Appodeal Privacy Policy](https://appodeal.com/privacy-policy/)
 
-Google's notices explain its own processing, retention, international transfers and rights channels; they do not replace TASS LTD's responsibilities. Applicable providers and purposes must be disclosed through required privacy messages before the relevant processing.
+Google's notices explain its own processing, retention, international transfers and rights channels; they do not replace TASS STUDIO's responsibilities. Applicable providers and purposes must be disclosed through required privacy messages before the relevant processing.
 
 ## 5. Your advertising and tracking choices
 
@@ -98,7 +98,7 @@ Some providers process information on our instructions; others determine their o
 
 ## 8. International processing and transfers
 
-TASS LTD is based in the United Kingdom. Providers may process information in the United States and other countries where they or their service providers operate. Privacy protections may differ from those in your country.
+TASS STUDIO is based in the United Kingdom. Providers may process information in the United States and other countries where they or their service providers operate. Privacy protections may differ from those in your country.
 
 Where required, transfers must rely on an applicable adequacy decision, approved contractual protections such as EU Standard Contractual Clauses and the UK Addendum or International Data Transfer Agreement, or another lawful transfer mechanism. We do not rely on your acceptance of this policy as consent to an international transfer. You can contact us for information about the safeguards applicable to your data and how to obtain a copy, subject to lawful redactions.
 
@@ -159,7 +159,7 @@ The categories relevant to our services are **identifiers** (contact details, IP
 
 ### Advertising disclosures under California law
 
-TASS LTD does not rent personal information or sell it for money. However, disclosing identifiers, app or ad activity, general location, or advertising inferences to advertising partners for cross-context behavioural advertising can constitute "sharing" or a "sale" under California law, even without a monetary payment. These disclosures depend on the enabled partners and your privacy choices. You can request an opt-out using the options below.
+TASS STUDIO does not rent personal information or sell it for money. However, disclosing identifiers, app or ad activity, general location, or advertising inferences to advertising partners for cross-context behavioural advertising can constitute "sharing" or a "sale" under California law, even without a monetary payment. These disclosures depend on the enabled partners and your privacy choices. You can request an opt-out using the options below.
 
 ### Your advertising opt-out rights
 
@@ -271,4 +271,4 @@ You can review the current version on this page or download a copy for your reco
 
 ## 24. Contact us
 
-For privacy questions, deletion requests, advertising opt-outs, or complaints, contact **TASS LTD — Privacy** at [tasstudio@proton.me](mailto:tasstudio@proton.me).
+For privacy questions, deletion requests, advertising opt-outs, or complaints, contact **TASS STUDIO — Privacy** at [tasstudio@proton.me](mailto:tasstudio@proton.me).

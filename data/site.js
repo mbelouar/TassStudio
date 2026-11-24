@@ -4,7 +4,7 @@
  */
 export const site = {
   name: "TASS STUDIO",
-  legalName: "TASS LTD",
+  legalName: "TASS STUDIO",
 
   // TODO: set this to your real domain once it is connected on Vercel.
   // Used for canonical URLs, Open Graph, sitemap.xml and the legal pages.

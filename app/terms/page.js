@@ -4,7 +4,7 @@ import { site } from "@/data/site";
 
 export const metadata = {
   title: "Terms of Service",
-  description: `The terms that apply when you use games and services from ${site.legalName} (${site.name}).`,
+  description: `The terms that apply when you use games and services from ${site.name}.`,
   alternates: { canonical: "/terms" },
   openGraph: { url: "/terms", title: `Terms of Service · ${site.name}` },
 };
@@ -38,16 +38,19 @@ export default function TermsPage() {
     <LegalLayout
       title="Terms of Service"
       updated={site.legalUpdated}
-      intro={`These terms apply to ${site.name} games published by ${L} and to ${site.url.replace(/^https?:\/\//, "")}.`}
+      intro={`These terms apply to games published by ${site.name} and to ${site.url.replace(/^https?:\/\//, "")}.`}
       toc={toc}
     >
       <p><strong>Effective date and last updated:</strong> {site.legalUpdated}</p>
 
       <H n={1} />
       <p>
-        {L} (trading as {site.name}, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is a {site.company.type.toLowerCase()} registered in{" "}
-        {site.company.jurisdiction}, with its registered office at {site.company.address.join(", ")}. These terms apply to our mobile games and applications
+        {site.name} (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is an independent game studio based at {site.company.address.join(", ")}. These terms apply to our mobile games and applications
         that link to them (each an &quot;Application&quot;), this website, and related support services (together, the &quot;Services&quot;).
+      </p>
+      <p>
+        <strong>Dino Dash: Jurassic Run.</strong> These terms apply to Dino Dash: Jurassic Run (package com.tassstudio.dinodash), published by {site.name}{" "}
+        on Google Play. Dino Dash: Jurassic Run is free to download and does not contain advertising.
       </p>
       <p>
         If an Application has additional rules shown in the app or its store listing, those rules apply to that Application alongside these terms. If they

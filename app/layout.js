@@ -19,7 +19,7 @@ export const metadata = {
   description: site.description,
   applicationName: site.name,
   authors: [{ name: site.legalName }],
-  keywords: ["TASS STUDIO", "TASS LTD", "mobile games", "Android games", "indie game studio", "UK game developer", "Google Play"],
+  keywords: ["TASS STUDIO", "mobile games", "Android games", "indie game studio", "UK game developer", "Google Play"],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
