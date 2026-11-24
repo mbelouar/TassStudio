@@ -64,9 +64,10 @@ export default function Footer() {
 
       <div className="border-t border-line">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-6 text-xs text-mute sm:flex-row sm:items-center sm:justify-between">
-          <p>© {year} {site.name}. All rights reserved.</p>
+          <p>© {year} {site.legalName}. All rights reserved.</p>
           <p>
-            {site.location} · D-U-N-S® {site.company.duns}
+            {site.name} is operated by {site.legalName}, registered in {site.company.jurisdiction}
+            {site.company.number && <> · Company no. {site.company.number}</>} · Registered office: {site.company.address.join(", ")}
           </p>
         </div>
       </div>

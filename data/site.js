@@ -4,7 +4,7 @@
  */
 export const site = {
   name: "TASS STUDIO",
-  legalName: "TASS STUDIO",
+  legalName: "TASS LTD",
 
   // TODO: set this to your real domain once it is connected on Vercel.
   // Used for canonical URLs, Open Graph, sitemap.xml and the legal pages.
@@ -27,6 +27,8 @@ export const site = {
   company: {
     type: "Private company limited by shares",
     jurisdiction: "England and Wales",
+    // TODO: your 8-digit Companies House number (shown in the footer, Terms and About once set).
+    number: "",
     address: ["12 Tumbler Grove", "Wolverhampton", "WV10 0AT", "United Kingdom"],
     duns: "220611968",
   },

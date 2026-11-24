@@ -57,7 +57,7 @@ const regions = [
 
 export default function PrivacyPolicyPage() {
   const { html, toc, updated, readMinutes } = loadPrivacyPolicy();
-  const file = `/downloads/${site.legalName.toLowerCase().replace(/\s+/g, "-")}-privacy-policy`;
+  const file = `/downloads/${site.name.toLowerCase().replace(/\s+/g, "-")}-privacy-policy`;
   const tocIds = new Set(toc.map((t) => t.id));
   const validRegions = regions.filter(([, id]) => tocIds.has(id));
 
@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
           <div className="absolute right-0 top-20 h-[260px] w-[260px] rounded-full bg-pulse/15 blur-[100px]" />
         </div>
         <Reveal className="mx-auto max-w-6xl">
-          <p className="eyebrow mb-5">{site.legalName} / Your privacy</p>
+          <p className="eyebrow mb-5">{site.name} / Your privacy</p>
           <h1 className="font-display text-5xl font-bold leading-[1.02] tracking-tight sm:text-7xl">Privacy Policy</h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-mute">
             Understand how we use your information, how advertising works, and the choices available to you.

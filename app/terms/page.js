@@ -45,7 +45,9 @@ export default function TermsPage() {
 
       <H n={1} />
       <p>
-        {site.name} (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is an independent game studio based at {site.company.address.join(", ")}. These terms apply to our mobile games and applications
+        {site.name} is operated by {L} (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a {site.company.type.toLowerCase()} registered in{" "}
+        {site.company.jurisdiction}
+        {site.company.number && <> (company number {site.company.number})</>}, with its registered office at {site.company.address.join(", ")}. These terms apply to our mobile games and applications
         that link to them (each an &quot;Application&quot;), this website, and related support services (together, the &quot;Services&quot;).
       </p>
       <p>
@@ -180,7 +182,7 @@ export default function TermsPage() {
 
       <H n={17} />
       <p>
-        For questions about these terms, contact <strong>{L}</strong> at <Email />, or write to {L}, {site.company.address.join(", ")}. The current version
+        For questions about these terms, contact <strong>{site.name}</strong> at <Email />, or write to {L}, {site.company.address.join(", ")}. The current version
         of these terms is available at <a href={`${site.url}/terms`}>{site.url}/terms</a>.
       </p>
     </LegalLayout>

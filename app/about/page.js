@@ -38,7 +38,7 @@ export default function AboutPage() {
           <Reveal delay={0.1} className="space-y-5 text-lg leading-relaxed text-mute">
             <p>{site.about[1]}</p>
             <p>
-              We are based in {site.location} and publish our games worldwide on Google Play.
+              {site.name} is operated by {site.legalName}, a company registered in {site.company.jurisdiction}. We are based in {site.location} and publish our games worldwide on Google Play.
             </p>
           </Reveal>
         </div>
@@ -73,10 +73,10 @@ export default function AboutPage() {
         <Reveal>
           <dl className="grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
             {[
-              ["Company", site.legalName],
+              ["Operated by", site.legalName],
+              ["Registered in", site.company.jurisdiction],
+              site.company.number ? ["Company number", site.company.number] : ["Based in", site.location],
               ["D-U-N-S® Number", site.company.duns],
-              ["Based in", site.location],
-              ["Contact", site.email],
             ].map(([k, v]) => (
               <div key={k} className="bg-void px-6 py-6">
                 <dt className="font-mono text-[11px] uppercase tracking-[0.2em] text-mute">{k}</dt>
