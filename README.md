@@ -31,6 +31,6 @@ npm run build      # production build check
 2. On vercel.com → **Add New → Project** → import the repo. Vercel detects Next.js; keep the defaults and click **Deploy**.
 3. Optional custom domain: **Project → Settings → Domains** → add your domain and follow the DNS instructions.
 4. Set `url` in `data/site.js` to the final domain and push again (this updates canonical URLs, Open Graph, sitemap and the legal pages).
-5. In Google Play Console, set each app's privacy policy URL to `https://<your-domain>/privacy-policy`.
+5. In Google Play Console, set each app's privacy policy URL to `https://<your-domain>/privacy`.
 
 Prefer pure static hosting? Uncomment `output: "export"` in `next.config.mjs`, add `unoptimized: true` under `images`, and `npm run build` produces an `out/` folder you can upload anywhere.

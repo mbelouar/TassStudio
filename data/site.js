@@ -46,7 +46,7 @@ export const site = {
     { href: "/games", label: "Games" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
-    { href: "/privacy-policy", label: "Privacy" },
+    { href: "/privacy", label: "Privacy" },
   ],
 
   legalUpdated: "24 November 2026",

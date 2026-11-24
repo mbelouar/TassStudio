@@ -71,7 +71,7 @@ export default function TermsPage() {
       <p>
         Each Application has its own intended audience and age rating, as described in its store listing. If you are under the age of digital consent in
         your country, you must have permission from a parent or guardian to use the Services, and they should review these terms and our{" "}
-        <Link href="/privacy-policy">Privacy Policy</Link> with you.
+        <Link href="/privacy">Privacy Policy</Link> with you.
       </p>
 
       <H n={5} />
@@ -94,7 +94,7 @@ export default function TermsPage() {
       <p>
         Our games are free to download and may be supported by advertising, including banners, interstitials, and optional rewarded ads. A reward is granted
         only when a rewarded ad completes successfully; an unfinished or failed ad does not earn a reward. Ads are provided by third parties such as Google
-        AdMob and Appodeal, and your advertising choices are explained in our <Link href="/privacy-policy">Privacy Policy</Link>. We are not responsible for
+        AdMob and Appodeal, and your advertising choices are explained in our <Link href="/privacy">Privacy Policy</Link>. We are not responsible for
         the content of third-party ads or the products they promote, but you can report an inappropriate ad to us.
       </p>
 
@@ -157,7 +157,7 @@ export default function TermsPage() {
 
       <H n={14} />
       <p>
-        Our <Link href="/privacy-policy">Privacy Policy</Link> explains how we and our partners process personal information in connection with the
+        Our <Link href="/privacy">Privacy Policy</Link> explains how we and our partners process personal information in connection with the
         Services, including advertising, children&apos;s privacy, and your rights.
       </p>
 

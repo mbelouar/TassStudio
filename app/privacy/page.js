@@ -11,8 +11,8 @@ import { site } from "@/data/site";
 export const metadata = {
   title: "Privacy Policy",
   description: "Understand how we use your information, how advertising works, and the choices available to you.",
-  alternates: { canonical: "/privacy-policy" },
-  openGraph: { url: "/privacy-policy", title: `Privacy Policy · ${site.name}` },
+  alternates: { canonical: "/privacy" },
+  openGraph: { url: "/privacy", title: `Privacy Policy · ${site.name}` },
 };
 
 const glance = [

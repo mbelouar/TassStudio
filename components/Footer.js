@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
 
         <FooterCol title="Studio">
-          {site.nav.filter((n) => n.href !== "/privacy-policy").map((n) => (
+          {site.nav.filter((n) => n.href !== "/privacy").map((n) => (
             <FooterLink key={n.href} href={n.href}>{n.label}</FooterLink>
           ))}
         </FooterCol>
@@ -50,7 +50,7 @@ export default function Footer() {
         )}
 
         <FooterCol title="Legal">
-          <FooterLink href="/privacy-policy">Privacy Policy</FooterLink>
+          <FooterLink href="/privacy">Privacy Policy</FooterLink>
           <FooterLink href="/terms">Terms of Service</FooterLink>
           {socials.map(([key, url]) => (
             <li key={key}>

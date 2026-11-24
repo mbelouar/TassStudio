@@ -57,7 +57,7 @@ export default function ContactForm() {
         <p className="text-xs leading-relaxed text-mute sm:max-w-sm" aria-live="polite">
           {sent
             ? "Your email app should now be open with the message ready to send."
-            : <>This opens a draft in your email app. Please don’t include passwords or payment details. See our <a href="/privacy-policy" className="text-ion hover:underline">Privacy Policy</a>.</>}
+            : <>This opens a draft in your email app. Please don’t include passwords or payment details. See our <a href="/privacy" className="text-ion hover:underline">Privacy Policy</a>.</>}
         </p>
         <button
           type="submit"
