@@ -26,6 +26,7 @@
  *       "/games/my-game/shot-2.png",
  *       "/games/my-game/shot-3.png",
  *     ],
+ *     screenshotAspect: "1080 / 1920",       // optional: width / height of your screenshots (default phone 390/844)
  *     playStoreUrl: "https://play.google.com/store/apps/details?id=com.tassstudio.mygame",
  *     accent: "#C6FF3D",                     // card glow colour
  *     tags: ["Puzzle", "Offline"],
@@ -46,9 +47,29 @@ export const games = [
       "/games/neon-drift-rush/chopper.jpg",
       "/games/neon-drift-rush/garage.jpg",
     ],
+    screenshotAspect: "1080 / 2160",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.neondriftrush.app",
     accent: "#FF3DCB",
     tags: ["Racing", "Offline", "No ads"],
+    featured: true,
+  },
+  {
+    slug: "dino-dash",
+    title: "Dino Dash: Jurassic Run",
+    genre: "Arcade Runner",
+    tagline: "Run, jump and dodge as a dino. Outrun extinction!",
+    description:
+      "A fast, fun dinosaur runner where one tap is all you need. Sprint through six prehistoric eras, outrun a giant T-Rex in epic boss chases, and hatch eggs to build your own dino team. 60 Adventure levels, an endless Extinction Run and a new Daily Challenge every day. No ads.",
+    icon: "/games/dino-dash/icon.png",
+    screenshots: [
+      "/games/dino-dash/trex.jpg",
+      "/games/dino-dash/lava.jpg",
+      "/games/dino-dash/hatch.jpg",
+    ],
+    screenshotAspect: "1080 / 1920",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.dinodash.jurassicrun",
+    accent: "#FFB020",
+    tags: ["Runner", "Arcade", "No ads"],
     featured: true,
   },
 ];

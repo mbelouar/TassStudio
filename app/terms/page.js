@@ -58,7 +58,7 @@ export default function TermsPage() {
           advertising and no in-app purchases.
         </li>
         <li>
-          <strong>Dino Dash: Jurassic Run</strong> (package com.tassstudio.dinodash) is free to download and does not contain advertising.
+          <strong>Dino Dash: Jurassic Run</strong> (package com.dinodash.jurassicrun) is free to download and does not contain advertising.
         </li>
       </ul>
       <p>

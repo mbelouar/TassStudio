@@ -88,10 +88,10 @@ export default function GameCard({ game, layout = "compact", priority = false })
           {game.screenshots.slice(0, 3).map((src, i) => (
             <div
               key={src}
-              className={`relative aspect-[390/844] overflow-hidden rounded-2xl border border-white/10 bg-void-3 shadow-xl shadow-black/40 transition duration-500 ${
+              className={`relative overflow-hidden rounded-2xl border border-white/10 bg-void-3 shadow-xl shadow-black/40 transition duration-500 ${
                 feature ? "w-[38%] min-w-[130px] max-w-[190px] shrink-0 snap-start lg:w-[31%]" : ""
               } ${feature && i === 1 ? "lg:-translate-y-4 lg:group-hover:-translate-y-7" : "group-hover:-translate-y-1"}`}
-              style={!feature ? { transitionDelay: `${i * 60}ms` } : undefined}
+              style={{ aspectRatio: game.screenshotAspect ?? "390 / 844", ...(!feature && { transitionDelay: `${i * 60}ms` }) }}
             >
               <Image
                 src={src}
