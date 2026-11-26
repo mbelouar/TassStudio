@@ -32,6 +32,25 @@
  *     featured: true,
  *   },
  */
-export const games = [];
+export const games = [
+  {
+    slug: "neon-drift-rush",
+    title: "Neon Drift Rush: Car Racing",
+    genre: "Arcade Racing",
+    tagline: "Drift neon streets, outrun the cops and chain combos.",
+    description:
+      "A high-octane arcade drift racer on glowing city streets at night. Chain drift combos, dodge traffic and blast past the police with nitro, all with one-thumb controls. 30 Career levels, an Endless mode and boss chases. No ads, no in-app purchases, fully offline.",
+    icon: "/games/neon-drift-rush/icon.png",
+    screenshots: [
+      "/games/neon-drift-rush/drift.jpg",
+      "/games/neon-drift-rush/chopper.jpg",
+      "/games/neon-drift-rush/garage.jpg",
+    ],
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.neondriftrush.app",
+    accent: "#FF3DCB",
+    tags: ["Racing", "Offline", "No ads"],
+    featured: true,
+  },
+];
 
 export const featuredGames = games.filter((g) => g.featured);

@@ -50,9 +50,19 @@ export default function TermsPage() {
         {site.company.number && <> (company number {site.company.number})</>}, with its registered office at {site.company.address.join(", ")}. These terms apply to our mobile games and applications
         that link to them (each an &quot;Application&quot;), this website, and related support services (together, the &quot;Services&quot;).
       </p>
+      <h3>Our games</h3>
+      <p>These terms apply to the following games published by {site.name} on Google Play:</p>
+      <ul>
+        <li>
+          <strong>Neon Drift Rush: Car Racing</strong> (package com.neondriftrush.app) is free to download, plays fully offline, and contains no
+          advertising and no in-app purchases.
+        </li>
+        <li>
+          <strong>Dino Dash: Jurassic Run</strong> (package com.tassstudio.dinodash) is free to download and does not contain advertising.
+        </li>
+      </ul>
       <p>
-        <strong>Dino Dash: Jurassic Run.</strong> These terms apply to Dino Dash: Jurassic Run (package com.tassstudio.dinodash), published by {site.name}{" "}
-        on Google Play. Dino Dash: Jurassic Run is free to download and does not contain advertising.
+        Coins and other rewards in these games are virtual items that exist only in the game, as described in <a href="#t5">section 5</a>.
       </p>
       <p>
         If an Application has additional rules shown in the app or its store listing, those rules apply to that Application alongside these terms. If they
